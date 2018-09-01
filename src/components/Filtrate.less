@@ -1,0 +1,39 @@
+@import "../less/variables";
+.base{
+  height: @filtrate-h;
+  padding-top: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: @base-border;
+  border-radius: @base-radius;
+  box-shadow: @base-shadow;
+  position: relative;
+  :global{
+    .ant-calendar-picker-input.ant-input{
+      width: 100%;
+    }
+    .ant-select, .ant-input{
+      width: 140px;
+    }
+    .ant-row{
+      margin-left: 30px;
+    }
+    .ant-form-item{
+      margin-right: 0
+    }
+  }
+}
+.button, .button:focus, .button:hover{
+  height: 24px;
+  background: -webkit-linear-gradient(#2fc5fd , #6886fe); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient( #2fc5fd , #6886fe); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient( #2fc5fd , #6886fe); /* Firefox 3.6 - 15 */
+  background: linear-gradient( #2fc5fd , #6886fe); /* 标准的语法（必须放在最后） */
+}
+:global{
+  li.ant-select-tree-treenode-disabled > span:not(.ant-select-tree-switcher), li.ant-select-tree-treenode-disabled > .ant-select-tree-node-content-wrapper, li.ant-select-tree-treenode-disabled > .ant-select-tree-node-content-wrapper span{
+    color: #000 !important;
+  }
+}
+

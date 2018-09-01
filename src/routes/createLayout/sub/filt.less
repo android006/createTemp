@@ -1,0 +1,117 @@
+.draItem{
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  background: #4b5155;
+  font-size: 15px;
+  color: #EEEEEE;
+  padding: 10px;
+  overflow: hidden;
+  cursor: url('http://gtms02.alicdn.com/tps/i2/T1_PMSFLBaXXcu5FDa-20-20.png') 10 10,pointer!important;
+  position: relative;
+  transition: box-shadow .5s;
+  .mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+}
+.draItem:hover{
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px 2px rgba(0,0,0,.8);
+}
+.container{
+  width: 100%;
+  height: 100%;
+  padding:1px 10px;
+  .myModal{
+    position: absolute;
+    z-index: 111;
+    width: 700px;
+    height: 600px;
+    top: 100px;
+    left: 400px;
+    background:rgba(255,255,255,1);
+    border-radius:6px;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.8);
+    padding: 2px;
+    .modalHeader{
+      width: 100%;
+      height:38px;
+      background:rgba(84,159,255,1);
+      border-radius:6px 6px 0px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      div{
+        margin: 0 10px;
+        font-size: 16px;
+        i{
+          cursor: pointer;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+.myForm{
+  .wp-tab {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .closs{
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+      background: red;
+      height: 23px;
+      width: 23px;
+      line-height: 23px;
+      text-align: center;
+      border-radius: 50%;
+      i{
+        font-size: 20px;
+        color: #FFF;
+      }
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 40px;
+      background: hsla(0,0%,40%,.3);
+      border-top: 1px solid #666;
+      width: 100%;
+      padding-left: 2%;
+    }
+  }
+  :global{
+    .ant-form-item-label label{
+      color: hsla(0,0%,100%,.45) !important;
+    }
+    .ant-form-item-label{
+      text-align: center !important;
+    }
+    .ant-input{
+      color: hsla(0,0%,100%,.55);
+      border-color: #979797;
+      background: transparent!important;
+    }
+    .ant-form-item{
+      margin-bottom: 10px;
+    }
+    .ant-select-selection{
+      color: hsla(0,0%,100%,.55);
+      border-color: #979797;
+      background: transparent!important;
+      .ant-select-arrow:before{
+        color: hsla(0,0%,100%,.55);
+      }
+    }
+  }
+}
+

@@ -1,0 +1,22 @@
+@import "../../less/vendor-prefixes";
+@import "../../less/variables";
+.myPage{
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  margin: auto;
+  :global{
+    .ant-pagination-item-active{
+      border: 0;
+      background-color: #6997FF;
+      a{
+        color: #ffffff;
+      }
+      &:focus{
+        background-color: #6997FF;
+      }
+    }
+  }
+}

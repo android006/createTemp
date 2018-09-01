@@ -1,0 +1,116 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  background: #363b3e;
+  color: #FFF;
+  .header{
+    height: 64px;
+    ul{
+      float: right;
+      li{
+        float: left;
+        padding: 0 10px;
+        line-height: 64px;
+        list-style: none;
+        button{
+          -webkit-appearance: button;
+          //color: hsla(0,0%,100%,.55);
+          //border-color: #979797;
+          //background: transparent!important;
+        }
+      }
+    }
+  }
+  .silder{
+    padding:0 10px;
+  }
+  .content{
+    background: #FFFFFF;
+    position: relative;
+  }
+  .content, .silder{
+    height: calc(~'100vh - 64px');
+    box-shadow:0 8px 8px 2px rgba(0,0,0,.35) inset;
+    overflow-y: auto;
+    overflow-x: hidden;
+    :global{
+      .ant-tabs-bar{
+        border-bottom: 1px solid #666;
+      }
+      .ant-tabs-nav{
+        i{
+          font-size: 20px;
+        }
+      }
+      .ant-tabs-ink-bar{
+        background-color: #fff;
+      }
+      .ant-tabs-nav .ant-tabs-tab:hover{
+        color:#ccc;
+      }
+      .ant-tabs-nav .ant-tabs-tab{
+        color:#ccc;
+      }
+      .ant-tabs-nav .ant-tabs-tab-active{
+        color:#fff;
+      }
+    }
+  }
+  .content::-webkit-scrollbar, .silder::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 10px;
+  }
+  .content::-webkit-scrollbar-thumb, .silder::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background:rgba(0,0,0,0.5);
+  }
+  .content::-webkit-scrollbar-track, .silder::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    border-radius: 10px;
+    width:8px;
+    background:rgba(0,0,0,0.2);
+  }
+}
+.handle{
+  width: 100%;
+  margin: 0 auto 16px;
+  div{
+    display: inline-block;
+    width: 48%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    background: #4b5155;
+    text-align: center;
+    border-radius: 6px;
+    transform: translateY(0);
+    position: relative;
+    transition: transform .3s cubic-bezier(.215,.61,.355,1),box-shadow .3s cubic-bezier(.215,.61,.355,1),-webkit-transform .3s cubic-bezier(.215,.61,.355,1);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,.15);
+    i{
+      margin-right: 5px;
+      font-size: 16px;
+      vertical-align: middle;
+    }
+    .anticon{
+      display: inline-block;
+      font-style: normal;
+      text-align: center;
+      text-transform: none;
+      line-height: 1;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      transition:width 1s;
+    }
+  }
+  div:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.3);
+  }
+  div:last-child{
+    margin-left: 4%;
+  }
+}

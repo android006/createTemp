@@ -1,0 +1,45 @@
+@import "../less/vendor-prefixes";
+@import "../less/variables";
+.container {
+  height:100%;
+  border: @base-border;
+  box-shadow: @base-shadow;
+  border-radius: @base-radius;
+  background-color: #ffffff;
+  overflow: hidden;
+  line-height: 40px;
+  position: relative;
+}
+.basePop {
+  :global {
+    .ant-popover-buttons {
+      text-align: center;
+    }
+  }
+}
+.containerHeader {
+  height: 40px;
+}
+.exportLine {
+  height: 1px;
+  display: block;
+  width: 106%;
+  background: rgba(196, 196, 196, 1);
+  position: relative;
+  top: -7px;
+  border-right: 1px solid rgba(196, 196, 196, 1);
+}
+.line {
+  width: 1px;
+  margin-left: 10px;
+  border-right: 1px solid rgba(196, 196, 196, 1);
+}
+.title {
+  text-align: center;
+}
+.baseFont {
+  margin-left: 10px;
+  margin-right: 4px;
+  color: #000000;
+  font-size: 14px;
+}

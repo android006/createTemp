@@ -1,0 +1,59 @@
+@import "../../less/variables";
+.base{
+  min-height: @filtrate-h;
+  padding-top: 4px;
+  margin: 10px auto;
+  background-color: #ffffff;
+  border: @base-border;
+  border-radius: @base-radius;
+  box-shadow: @base-shadow;
+  .fliMask{
+    position: absolute;
+    z-index: 1111;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .fliMask:hover{
+    border: 2px dotted #666;
+  }
+  .monthPicker{
+    input{
+      width: 120px !important;
+    }
+  }
+  .datePicker{
+    input{
+      width: 120px !important;
+    }
+  }
+  :global{
+    .ant-calendar-picker-input.ant-input{
+      width: 100%;
+    }
+    .ant-select, .ant-input{
+      width: 130px;
+    }
+    .ant-calendar-picker-input.ant-input{
+      width: 270px;
+    }
+    .ant-row{
+      margin-left: 25px;
+    }
+    .ant-form-item{
+      margin-right: 0
+    }
+  }
+}
+.button, .button:focus, .button:hover{
+  height: 24px;
+  background: -webkit-linear-gradient(#80A7FF , #5E56FF); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient( #80A7FF , #5E56FF); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient( #80A7FF , #5E56FF); /* Firefox 3.6 - 15 */
+  background: linear-gradient( #80A7FF , #5E56FF); /* 标准的语法（必须放在最后） */
+}
+

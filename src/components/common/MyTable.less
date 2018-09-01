@@ -1,0 +1,77 @@
+@import "../../less/vendor-prefixes";
+@import "../../less/variables";
+
+.myTable{
+  position:relative;
+  .tableMask{
+    position: absolute;
+    z-index: 1111;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .tableMask:hover{
+    border: 2px dotted #666;
+  }
+  :global{
+    .ant-checkbox-checked .ant-checkbox-inner{
+      background-color: #1890ff !important;
+    }
+    .ant-table-thead{
+      .wpColumn, .ant-table-selection-column {
+        background-color: @base-color !important;
+        text-align: center ;
+        color: #000000;
+
+      }
+      tr{
+        th{
+          border-right: 1px solid #ffffff;
+          background-color: @base-color !important;
+          text-align: center ;
+          color: #000000;
+        }
+      }
+    }
+    .ant-table-tbody {
+      .wpColumn {
+        background-color: #ffffff;
+        text-align: center;
+        color: #666666;
+      }
+      :global{
+        td{
+          text-align: center ;
+        }
+      }
+    }
+    .ant-table-thead > tr > th.ant-table-selection-column,
+    .ant-table-tbody > tr > td.ant-table-selection-column{
+      width: 30px;
+      min-width: 30px;
+    }
+    .ant-table-row{
+      height: 42px;
+    }
+    .ant-checkbox-indeterminate{
+      background-color: @base-color;
+    }
+    .ant-checkbox-checked{
+      .ant-checkbox-inner{
+        background-color: @base-color ;
+      }
+      .ant-checkbox-inner:visited{
+        border-color: @base-color;
+      }
+    }
+    .ant-table-fixed-right{
+      .ant-table-header{
+        background-color: #d0f1f2;
+      }
+    }
+  }
+}
