@@ -8,7 +8,11 @@ import CreateLayout from "./routes/createLayout/CreateLayout";
 function RouterConfig ({history}) {
   return (
     <Router history={history}>
-      <Route path="/" component={CreateTemp}> </Route>
+      <Router path="/">
+        <IndexRoute component={CreateLayout} />
+      </Router>
+
+      <Route path="createTemp" component={CreateTemp}> </Route>
       <Route path="createLayout" component={CreateLayout}> </Route>
     </Router>
   );

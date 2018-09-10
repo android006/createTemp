@@ -2,6 +2,7 @@
  * Created by GYL on 2018/7/6
  */
 import React, {Component} from 'react';
+import {Link} from 'dva/router';
 import {message, notification,Input,InputNumber,Icon } from 'antd';
 import styles from './createTemp.less';
 import MyTable from "../../components/MyTable";
@@ -421,7 +422,9 @@ class CreateTemp extends Component {
     ];
     return(
       <div className={styles.container}>
-        <div className={styles.header}></div>
+        <div className={styles.header}>
+          <Link to={`/createLayout`} style={{fontSize:18}}><MyIcon title={"跳转至布局"} type={'icon-buju'} style={{color:'#3c8fff',fontSize:26,paddingLeft:20}}/></Link>
+        </div>
         <div className={styles.left}>
           <Container
             extraBtn={extraBtn}

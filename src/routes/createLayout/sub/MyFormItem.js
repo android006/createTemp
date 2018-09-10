@@ -19,59 +19,53 @@ class MyFormItem extends Component {
 
   };
   // 输入框
-  onInptChange = () => {};
+  onInputChange = (index,e) => {
+    let value = e.target.value;
+    this.props.onInputChange(value,index)
+  };
   // 下拉选点击
-  onSelChange = ()=>{};
-  // 渲染节点
-  renderItems = (itemNum) => {
-    let t = this;
-    let res = [];
-    let {getFieldDecorator} = this.props.form;
-    for(let index = 0; index < itemNum; index++) {
-      res.push(
-        [<Col key={'t'+index} span={24}>
-          <div className={styles['wp-tab']}>
-            <h1>条件{index+1}</h1>
-            {
-              t.props.delShow?<div className={styles.closs}><MyIcon type={'icon-x'}/></div>:null
-            }
-          </div>
-        </Col>,
-          <Col key={'i'+index} span={24}>
-            <FormItem labelCol={{span: 6}} wrapperCol={{span: 18}} colon={false}  label={'名称'}>
-              {
-                getFieldDecorator('input'+index, {})(
-                  <Input size="small" onChange={t.onInptChange}/>
-                )
-              }
-            </FormItem>
-          </Col>,
-          <Col key={'s'+index} span={24}>
-            <FormItem labelCol={{span: 6}} wrapperCol={{span: 18}} colon={false} label={'类别'}>
-              {
-                getFieldDecorator('select'+index, {})(
-                  <Select size="small" showSearch onChange={t.onSelChange}>
-                    <Select.Option value={'input'}>输入框</Select.Option>
-                    <Select.Option value={'select'}>下拉选</Select.Option>
-                    <Select.Option value={'datePicker'}>时间框</Select.Option>
-                    <Select.Option value={'rangePicker'}>日期框</Select.Option>
-                  </Select>
-                )
-              }
-            </FormItem>
-          </Col>]
-      )
-    }
-    return res
+  onSelChange = (index,val)=>{
+    this.props.onSelChange(val,index)
   };
   render(){
     let t = this;
-    let {itemNum} = t.props;
+    let {itemLists} = t.props;
+    let {getFieldDecorator} = this.props.form;
     return(
       <Form className={styles.myForm}>
         <Row gutter={12}>
           <QueueAnim className="demo-content" duration={500}>
-            {this.renderItems(itemNum)}
+            {
+              itemLists.map((item, index) => {
+                return(
+                  [<Col key={'t'+index} span={24}>
+                    <div className={styles['wp-tab']}>
+                      <h1>条件{index+1}</h1>
+                      {
+                        t.props.delShow?<div className={styles.close} onClick={this.props.onDelete.bind(t,index)}><MyIcon type={'icon-x'}/></div>:null
+                      }
+                    </div>
+                  </Col>,
+                    <Col key={'i'+index} span={24}>
+                      <div className={styles.item}>
+                        <span className={styles.label}>名称</span>
+                        <Input size="small" value={item.label} onChange={t.onInputChange.bind(t,index)}/>
+                      </div>
+                    </Col>,
+                    <Col key={'s'+index} span={24}>
+                      <div className={styles.item}>
+                        <span className={styles.label}>类别</span>
+                        <Select size="small" value={item.type} showSearch onChange={t.onSelChange.bind(t,index)}>
+                          <Select.Option value={'input'}>输入框</Select.Option>
+                          <Select.Option value={'select'}>下拉选</Select.Option>
+                          <Select.Option value={'datePicker'}>时间框</Select.Option>
+                          <Select.Option value={'rangePicker'}>日期框</Select.Option>
+                        </Select>
+                      </div>
+                    </Col>]
+                )
+              })
+            }
           </QueueAnim>
         </Row>
       </Form>

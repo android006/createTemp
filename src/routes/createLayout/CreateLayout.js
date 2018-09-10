@@ -4,6 +4,7 @@
 import React, {Component} from 'react';
 import styles from './createLayout.less';
 import { Row, Col, Tabs, Tooltip, Button } from 'antd';
+import {Link} from 'dva/router';
 import HTML5Backend, { NativeTypes } from 'react-dnd-html5-backend';
 import QueueAnim from 'rc-queue-anim';
 import { DragDropContext } from 'react-dnd';
@@ -17,9 +18,9 @@ import Box from './sub/Box';
 import MyFormItem from './sub/MyFormItem';
 
 const TabPane = Tabs.TabPane;
-
+let uuid = 0;
 class CreateLayout extends Component {
-  state = {
+  state={
     dustbins:[
       { accepts: ['true'],padding:'0 0.5vw 0 1vw',marginTop:'1vh',data:[]},
     ],
@@ -30,6 +31,7 @@ class CreateLayout extends Component {
       { name: '模态框', img: modalPNG, type:'true' },
     ],
     droppedBoxNames: [],
+    itemList: [],
     itemNum: 0,
     activeType:'',
     delShow:false
@@ -115,6 +117,10 @@ class CreateLayout extends Component {
           },
         },
         droppedBoxNames,
+        itemList:{$set:[]},
+        itemNum:{$set:0},
+        activeKey:{$set:'1'},
+        delShow:{$set:false},
       })
     )
   };
@@ -128,8 +134,12 @@ class CreateLayout extends Component {
   };
   // 添加条件
   onAdd = () => {
-    let itemNum = this.state.itemNum + 1;
+    let t = this;
+    let {itemList,itemNum} = this.state;
+    itemNum++;
+    itemList.push({label:'',type:''});
     this.setState({
+      itemList,
       itemNum
     });
   };
@@ -139,13 +149,46 @@ class CreateLayout extends Component {
       delShow:!this.state.delShow
     });
   };
+  // 删除
+  onDelete = (i) => {
+    let {itemList,itemNum} = this.state;
+    itemNum--;
+    console.log("i:",i);
+    itemList.splice(i,1);
+    this.setState({
+      itemList,
+      itemNum
+    });
+  };
+  // 输入框
+  onInputChange =(val, index) => {
+    let {itemList,itemNum} = this.state;
+    itemNum++;
+    itemList[index].label = val;
+    this.setState({
+      itemList,
+      itemNum
+    });
+  };
+  // 下拉选
+  onSelChange = (val, index) => {
+    let {itemList,itemNum} = this.state;
+    itemNum++;
+    itemList[index].type = val;
+    this.setState({
+      itemList,
+      itemNum
+    });
+  };
   render(){
     let t = this;
-    let { dustbins, boxes, activeKey, activeType, itemNum, delShow } = t.state;
-
+    let { dustbins, boxes, activeKey, activeType, itemList,itemNum, delShow } = t.state;
     return(
       <Row className={styles.container}>
-        <Col span={24} className={styles.header}>
+        <Col span={2} className={styles.header}>
+          <Link to={`/createTemp`} style={{fontSize:20}}><MyIcon title={"跳转至组态"} type={'icon-zutaituzhanshi'} style={{color:'#FFF',fontSize:26,paddingLeft:20}}/></Link>
+        </Col>
+        <Col span={22} className={styles.header}>
           <ul>
             <li><Button type="primary" onClick={t.onReset}>重置参数</Button></li>
             <li><Button type="primary">生成代码</Button></li>
@@ -169,7 +212,6 @@ class CreateLayout extends Component {
         </Col>
         <Col span={4} className={styles.silder}>
           <Tabs activeKey={activeKey} onChange={t.onTabChange}>
-
             <TabPane tab={<Tooltip title="选择"><span><MyIcon type={'icon-tuozhuailiebiao'}/></span></Tooltip>} key="1">
               <QueueAnim className="demo-content" duration={700} type={['right', 'left']} ease={['easeOutQuart', 'easeInOutQuart']}>
               {
@@ -192,8 +234,16 @@ class CreateLayout extends Component {
                 <div onClick={t.onDel}><MyIcon type={delShow?'icon-shanchu1':'icon-jianshao'} className={styles.anticon}/>{delShow?"关闭删除":"删除条件"}</div>
               </div>
               {
-                activeKey === '2' &&
-                <MyFormItem delShow={delShow} itemNum={itemNum} activeType={activeType}/>
+                activeKey === '2' && itemList.length > 0 &&
+                <MyFormItem
+                  onInputChange={t.onInputChange}
+                  onSelChange={t.onSelChange}
+                  delShow={delShow}
+                  itemLists={itemList}
+                  itemNum={itemNum}
+                  ref={ref=>this.f1=ref}
+                  activeType={activeType}
+                  onDelete={t.onDelete}/>
               }
             </TabPane>
           </Tabs>

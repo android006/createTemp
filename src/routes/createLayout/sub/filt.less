@@ -63,9 +63,9 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    .closs{
+    .close{
       position: absolute;
-      top: 5px;
+      top: 8px;
       right: 5px;
       cursor: pointer;
       background: red;
@@ -89,6 +89,17 @@
       padding-left: 2%;
     }
   }
+  .item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    .label{
+      width: 20%;
+      text-align: center;
+      color: hsla(0,0%,100%,.45) !important;
+    }
+  }
+
   :global{
     .ant-form-item-label label{
       color: hsla(0,0%,100%,.45) !important;
