@@ -529,14 +529,13 @@
             "type": "configuration",
             "value": "7",
             "key": "7"
-          }, {"id": "8", "label": "#1炉汽水", "type": "configuration", "value": "8", "key": "8"}, {
+          },{"id": "15", "label": "#4锅炉总貌", "type": "configuration", "value": "15", "key": "15"}, {"id": "8", "label": "#1炉汽水", "type": "configuration", "value": "8", "key": "8"}, {
             "id": "9",
             "label": "#2炉汽水",
             "type": "configuration",
             "value": "9",
             "key": "9"
           }, {"id": "10", "label": "#3炉汽水", "type": "configuration", "value": "10", "key": "10"},
-          {"id": "16", "label": "#4锅炉总貌", "type": "configuration", "value": "16", "key": "16"}
         ],
         "id": "TZ013",
         "label": "锅炉",
@@ -556,13 +555,14 @@
           "type": "configuration",
           "value": "3",
           "key": "3"
-        }, {"id": "4", "label": "#2机总貌", "type": "configuration", "value": "4", "key": "4"}, {
+        }, {"id": "4", "label": "#2机总貌", "type": "configuration", "value": "4", "key": "4"},
+          {"id": "14", "label": "#3机总貌", "type": "configuration", "value": "14", "key": "14"},{
           "id": "12",
           "label": "#1机TSI系统",
           "type": "configuration",
           "value": "12",
           "key": "12"
-        }, {"id": "15", "label": "#4锅炉总貌", "type": "configuration", "value": "15", "key": "15"},{
+        }, {
           "id": "13",
           "label": "#2机TSI系统",
           "type": "configuration",
