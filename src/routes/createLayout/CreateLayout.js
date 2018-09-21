@@ -3,7 +3,7 @@
  */
 import React, {Component} from 'react';
 import styles from './createLayout.less';
-import { Row, Col, Tabs, Tooltip, Button } from 'antd';
+import { Row, Col, Tabs, Tooltip, Button, message, notification, Icon } from 'antd';
 import {Link} from 'dva/router';
 import HTML5Backend, { NativeTypes } from 'react-dnd-html5-backend';
 import QueueAnim from 'rc-queue-anim';
@@ -32,6 +32,9 @@ class CreateLayout extends Component {
     ],
     droppedBoxNames: [],
     itemList: [],
+    Filtrate:[],
+    Table:[],
+    modalItems:[],
     itemNum: 0,
     activeType:'',
     delShow:false
@@ -126,22 +129,60 @@ class CreateLayout extends Component {
   };
   // 搜索栏遮罩点击
   onMask = (activeType) => {
+    // 阻止重复点击
+    if (activeType === this.state.activeType){
+      return
+    }
     console.log("activeType:",activeType);
+    if (activeType === "Filtrate"){
+      let itemList = [{label: '示例一', type: 'input'},{label: '示例二', type: 'select'},{label: '示例三', type: 'datePicker'},{label: '示例四', type: 'rangePicker'}]
+      this.setState({
+        itemList
+      });
+      this.onHandleData(activeType,itemList)
+    }
     this.setState({
       activeKey:'2',
       activeType
     });
   };
+  // 处理数据
+  onHandleData =(type,data) => {
+    let list = [];
+    if (type === 'Filtrate'){
+      console.log("data:",data);
+      list = data.map((item, index) => {
+        if (item.type === "select"){
+          return {
+            type:item.type,
+            label:item.label,
+            paramName:"test"+index,
+            options:[]
+          }
+        }else{
+          return {
+            type:item.type,
+            label:item.label,
+            paramName:"test"+index
+          }
+        }
+      })
+    }
+    this.setState({
+      [type]:list
+    });
+  };
   // 添加条件
   onAdd = () => {
     let t = this;
-    let {itemList,itemNum} = this.state;
+    let {itemList,itemNum,activeType} = this.state;
     itemNum++;
     itemList.push({label:'',type:''});
     this.setState({
       itemList,
       itemNum
     });
+    this.onHandleData(activeType,itemList)
   };
   // 删除显示
   onDel = () => {
@@ -151,7 +192,7 @@ class CreateLayout extends Component {
   };
   // 删除
   onDelete = (i) => {
-    let {itemList,itemNum} = this.state;
+    let {itemList,itemNum,activeType} = this.state;
     itemNum--;
     console.log("i:",i);
     itemList.splice(i,1);
@@ -159,30 +200,54 @@ class CreateLayout extends Component {
       itemList,
       itemNum
     });
+    this.onHandleData(activeType,itemList)
   };
   // 输入框
   onInputChange =(val, index) => {
-    let {itemList,itemNum} = this.state;
+    let {itemList,itemNum,activeType} = this.state;
     itemNum++;
     itemList[index].label = val;
     this.setState({
       itemList,
       itemNum
     });
+    this.onHandleData(activeType,itemList)
   };
   // 下拉选
   onSelChange = (val, index) => {
-    let {itemList,itemNum} = this.state;
+    let {itemList,itemNum,activeType} = this.state;
     itemNum++;
     itemList[index].type = val;
     this.setState({
       itemList,
       itemNum
     });
+    this.onHandleData(activeType,itemList)
+  };
+  // 生成代码
+  setBatch = () => {
+    let {Filtrate} = this.state;
+    if (Filtrate.length === 0){
+      message.warning('请先创建你要生成的数据！');
+      return;
+    }
+    let oInput = document.createElement('input');
+    oInput.value = JSON.stringify(Filtrate);
+    document.body.appendChild(oInput);
+    oInput.select(); // 选择对象
+    document.execCommand("Copy"); // 执行浏览器复制命令
+    document.body.removeChild(oInput);
+    notification.open({
+      message:'复制成功',
+      description:JSON.stringify(Filtrate),
+      placement:'topLeft',
+      duration:2,
+      icon: <Icon type="smile-circle" style={{ color: '#1279ee' }} />,
+    });
   };
   render(){
     let t = this;
-    let { dustbins, boxes, activeKey, activeType, itemList,itemNum, delShow } = t.state;
+    let { dustbins, boxes, activeKey, activeType, itemList,itemNum, delShow, Filtrate } = t.state;
     return(
       <Row className={styles.container}>
         <Col span={2} className={styles.header}>
@@ -191,7 +256,7 @@ class CreateLayout extends Component {
         <Col span={22} className={styles.header}>
           <ul>
             <li><Button type="primary" onClick={t.onReset}>重置参数</Button></li>
-            <li><Button type="primary">生成代码</Button></li>
+            <li><Button type="primary" onClick={t.setBatch}>生成代码</Button></li>
             <li><Button type="primary">生成文件</Button></li>
           </ul>
         </Col>
@@ -199,6 +264,7 @@ class CreateLayout extends Component {
           {
             dustbins.map(({ accepts,data, lastDroppedItem, name}, index) => (
             <Dustbin
+              filtrateItems={Filtrate}
               onMask={t.onMask}
               key={index}
               name={name}

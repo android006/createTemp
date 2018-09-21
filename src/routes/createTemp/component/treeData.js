@@ -535,7 +535,8 @@
             "type": "configuration",
             "value": "9",
             "key": "9"
-          }, {"id": "10", "label": "#3炉汽水", "type": "configuration", "value": "10", "key": "10"}
+          }, {"id": "10", "label": "#3炉汽水", "type": "configuration", "value": "10", "key": "10"},
+          {"id": "16", "label": "#4锅炉总貌", "type": "configuration", "value": "16", "key": "16"}
         ],
         "id": "TZ013",
         "label": "锅炉",
@@ -561,7 +562,13 @@
           "type": "configuration",
           "value": "12",
           "key": "12"
-        }, {"id": "13", "label": "#2机TSI系统", "type": "configuration", "value": "13", "key": "13"}],
+        }, {"id": "15", "label": "#4锅炉总貌", "type": "configuration", "value": "15", "key": "15"},{
+          "id": "13",
+          "label": "#2机TSI系统",
+          "type": "configuration",
+          "value": "13",
+          "key": "13"
+        }],
         "id": "TZ014",
         "label": "汽轮机",
         "type": "major",

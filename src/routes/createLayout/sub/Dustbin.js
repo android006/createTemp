@@ -33,38 +33,10 @@ class Dustbin extends Component {
   }
   render() {
     let t = this;
-    let {isOver,canDrop,connectDropTarget,lastDroppedItem,name,data} = this.props;
+    let {isOver,canDrop,connectDropTarget,lastDroppedItem,name,data, filtrateItems} = this.props;
     let filtrateShow = false;
     let tableShow = false;
     let modalShow = false;
-    let item = [
-      {
-        type: 'input',
-        label: '示例一',
-        paramName: 'baseId',
-        options: [],
-        style:true,
-      },
-      {
-        type:'select',
-        label:'示例二',
-        paramName:'reportType',
-        options:[],
-        style:true,
-      },
-      {
-        type: 'datePicker',
-        label: '示例三',
-        paramName: 'startDate',
-        initialValue:null
-      },
-      {
-        type: 'rangePicker',
-        label: '示例四',
-        paramName: 'startDate',
-        initialValue:null
-      }
-    ];
     const columns = [
       {
         dataIndex: 'num',
@@ -126,7 +98,7 @@ class Dustbin extends Component {
             <div className="demo-thead" key="a">
               <Filtrate
                 ref={ref=>this.f1=ref}
-                items={item}
+                items={filtrateItems}
                 clearBtn={'hide'}
                 onMask={t.props.onMask}
               />
