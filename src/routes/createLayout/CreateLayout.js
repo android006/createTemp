@@ -14,6 +14,7 @@ import searchPNG from '../../assets/createLayout/search.png';
 import modalPNG from '../../assets/createLayout/modal2.png';
 import MyIcon from "../../components/common/MyIcon";
 import Dustbin from './sub/Dustbin';
+import CodeModal from './sub/CodeModal';
 import Box from './sub/Box';
 import MyFormItem from './sub/MyFormItem';
 
@@ -37,7 +38,8 @@ class CreateLayout extends Component {
     modalItems:[],
     itemNum: 0,
     activeType:'',
-    delShow:false
+    delShow:false,
+    codeModal:false
   };
   componentDidMount(){
 
@@ -245,9 +247,21 @@ class CreateLayout extends Component {
       icon: <Icon type="smile-circle" style={{ color: '#1279ee' }} />,
     });
   };
+  // 模态框关闭
+  modalCancel=(modal)=>{
+    this.setState({
+      [modal]:false,
+    });
+  };
+  // 打开模态框
+  onOpenModal = (modal) => {
+    this.setState({
+      [modal]:true,
+    });
+  };
   render(){
     let t = this;
-    let { dustbins, boxes, activeKey, activeType, itemList,itemNum, delShow, Filtrate } = t.state;
+    let { dustbins, boxes, activeKey, activeType, itemList,itemNum, codeModal, delShow, Filtrate } = t.state;
     return(
       <Row className={styles.container}>
         <Col span={2} className={styles.header}>
@@ -257,7 +271,7 @@ class CreateLayout extends Component {
           <ul>
             <li><Button type="primary" onClick={t.onReset}>重置参数</Button></li>
             <li><Button type="primary" onClick={t.setBatch}>生成代码</Button></li>
-            <li><Button type="primary">生成文件</Button></li>
+            <li><Button type="primary" onClick={t.onOpenModal.bind(t,'codeModal')}>预览</Button></li>
           </ul>
         </Col>
         <Col span={20} className={styles.content}>
@@ -314,6 +328,16 @@ class CreateLayout extends Component {
             </TabPane>
           </Tabs>
         </Col>
+        {
+          codeModal &&
+          <CodeModal
+            visible={codeModal}
+            title={"预览"}
+            footerShow={false}
+            onCancel={this.modalCancel.bind(this,'codeModal')}
+          />
+        }
+
       </Row>
 
     )
