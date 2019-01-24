@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js" line="15" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad3f316-45fa-4a01-a28d-0123c0263d63" name="Default" comment="">
+    <list default="true" id="bad3f316-45fa-4a01-a28d-0123c0263d63" name="Default" comment="替换">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.flash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/videoTest/VideoTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/createLayout/sub/CodeModal.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/createTemp/component/NDTempData.js" afterPath="$PROJECT_DIR$/src/routes/createTemp/component/NDTempData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router.js" afterPath="$PROJECT_DIR$/src/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js" afterPath="$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,101 +29,45 @@
       <file leaf-file-name="CreateLayout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8151">
-              <caret line="317" column="23" lean-forward="false" selection-start-line="317" selection-start-column="23" selection-end-line="317" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#39#78#0" expanded="true" />
-                <element signature="e#1042#1204#0" expanded="false" />
-                <element signature="e#1456#1805#0" expanded="false" />
-                <element signature="e#1828#1870#0" expanded="false" />
+                <element signature="e#1001#1163#0" expanded="false" />
+                <element signature="e#1395#1744#0" expanded="false" />
+                <element signature="e#1767#1809#0" expanded="false" />
                 <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
-                <element signature="e#2958#3011#0" expanded="false" />
-                <element signature="e#3039#3400#0" expanded="false" />
-                <element signature="e#3970#4493#0" expanded="false" />
-                <element signature="e#4521#4751#0" expanded="false" />
-                <element signature="e#4779#4846#0" expanded="false" />
-                <element signature="e#4876#5100#0" expanded="false" />
-                <element signature="e#5144#5350#0" expanded="false" />
-                <element signature="e#5393#5598#0" expanded="false" />
+                <element signature="e#2897#2950#0" expanded="false" />
+                <element signature="e#2978#3339#0" expanded="false" />
+                <element signature="e#3909#4432#0" expanded="false" />
+                <element signature="e#4460#4690#0" expanded="false" />
+                <element signature="e#4718#4785#0" expanded="false" />
+                <element signature="e#4815#5039#0" expanded="false" />
+                <element signature="e#5083#5289#0" expanded="false" />
+                <element signature="e#5332#5537#0" expanded="false" />
+                <element signature="e#6535#6759#0" expanded="false" />
+                <element signature="e#6768#7092#0" expanded="false" />
+                <element signature="e#7616#9320#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFormItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/MyFormItem.js">
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-              <folding>
-                <element signature="e#39#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filt.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/filt.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4836">
-              <caret line="124" column="5" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="124" selection-end-column="5" />
+            <state relative-caret-position="457">
+              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AJTempData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/AJTempData.js">
+      <file leaf-file-name="CreateTemp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NDTempData.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/NDTempData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="354" column="0" lean-forward="true" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CodeModal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/CodeModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#39#78#0" expanded="true" />
-                <marker date="1538968581577" expanded="true" signature="789:1105" ph="..." />
-                <marker date="1538968581577" expanded="true" signature="807:1092" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createTemp.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createLayout.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/createLayout.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3276">
-              <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+            <state relative-caret-position="624">
+              <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -123,21 +76,78 @@
       <file leaf-file-name="Box.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Box.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1209">
-              <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExamplesModal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/ExamplesModal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoTest.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#62#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoPlayer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/VideoPlayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dustbin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Dustbin.js">
+      <file leaf-file-name="cyberplayer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4446">
-              <caret line="114" column="26" lean-forward="false" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,6 +176,8 @@
       <find>hover</find>
       <find>transition</find>
       <find>QueueAnim</find>
+      <find>CodeMirror</find>
+      <find>CodeModal</find>
     </findStrings>
     <replaceStrings>
       <replace>Filtrate</replace>
@@ -186,8 +198,6 @@
         <option value="$PROJECT_DIR$/src/components/MyIcon.js" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/createLayout.less" />
         <option value="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" />
-        <option value="$PROJECT_DIR$/src/router.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/sub/filt.less" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/sub/MyFormItem.js" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/sub/Dustbin.js" />
@@ -195,9 +205,13 @@
         <option value="$PROJECT_DIR$/src/routes/createTemp/component/treeData.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/@uiw/react-codemirror/lib/CodeMirror.js" />
-        <option value="$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/sub/CodeModal.js" />
         <option value="$PROJECT_DIR$/src/routes/createTemp/component/NDTempData.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js" />
+        <option value="$PROJECT_DIR$/src/router.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/routes/videoTest/VideoTest.js" />
       </list>
     </option>
   </component>
@@ -217,7 +231,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -259,21 +273,7 @@
               <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="createTemp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="AJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="createTemp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="DQ" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
@@ -286,15 +286,30 @@
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="createTemp" type="462c0819:PsiDirectoryNode" />
+              <item name="createLayout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="createLayout" type="462c0819:PsiDirectoryNode" />
+              <item name="sub" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="videoTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="createTemp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="videoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="sub" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,11 +325,13 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/tailgasmonitor" />
     <property name="SearchEverywhereHistoryKey" value="createLayout&#9;FILE&#9;file://E:/GitHub/createTemp/src/routes/createLayout/CreateLayout.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitHub\createTemp\src\routes\videoTest\sub" />
+      <recent name="G:\GitHub\createTemp\public" />
       <recent name="E:\GitHub\createTemp\src\assets" />
       <recent name="E:\GitHub\createTemp\src\routes\createTemp\component" />
       <recent name="E:\GitHub\createTemp" />
@@ -390,6 +407,7 @@
       <workItem from="1542852959018" duration="792000" />
       <workItem from="1543979217156" duration="64000" />
       <workItem from="1543979455761" duration="701000" />
+      <workItem from="1548295443081" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1536572343324</created>
@@ -430,35 +448,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35925000" />
+    <option name="totallyTimeSpent" value="44039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.4821151" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.51131225" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5178849" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.48868778" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,118 +524,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/filt.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3549">
-          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3393">
-          <caret line="229" column="31" lean-forward="false" selection-start-line="229" selection-start-column="31" selection-end-line="229" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#39#78#0" expanded="true" />
-            <element signature="e#1042#1204#0" expanded="false" />
-            <element signature="e#1456#1805#0" expanded="false" />
-            <element signature="e#1828#1870#0" expanded="false" />
-            <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
-            <element signature="e#2958#3011#0" expanded="false" />
-            <element signature="e#3039#3400#0" expanded="false" />
-            <element signature="e#3970#4493#0" expanded="false" />
-            <element signature="e#4521#4751#0" expanded="false" />
-            <element signature="e#4779#4846#0" expanded="false" />
-            <element signature="e#4876#5100#0" expanded="false" />
-            <element signature="e#5144#5350#0" expanded="false" />
-            <element signature="e#5393#5598#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2652">
-          <caret line="294" column="27" lean-forward="false" selection-start-line="294" selection-start-column="14" selection-end-line="294" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3354">
-          <caret line="130" column="103" lean-forward="false" selection-start-line="130" selection-start-column="100" selection-end-line="130" selection-end-column="103" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#39#78#0" expanded="true" />
-            <element signature="e#1042#1204#0" expanded="false" />
-            <element signature="e#1456#1805#0" expanded="false" />
-            <element signature="e#1828#1870#0" expanded="false" />
-            <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
-            <element signature="e#2958#3011#0" expanded="false" />
-            <element signature="e#3039#3400#0" expanded="false" />
-            <element signature="e#3970#4493#0" expanded="false" />
-            <element signature="e#4521#4751#0" expanded="false" />
-            <element signature="e#4779#4846#0" expanded="false" />
-            <element signature="e#4876#5100#0" expanded="false" />
-            <element signature="e#5144#5350#0" expanded="false" />
-            <element signature="e#5393#5598#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/MyFormItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2067">
-          <caret line="58" column="60" lean-forward="false" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="60" />
-          <caret line="59" column="61" lean-forward="false" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="61" />
-          <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="65" />
-          <caret line="61" column="66" lean-forward="false" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/filt.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3549">
-          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Dustbin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4524">
           <caret line="125" column="23" lean-forward="true" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,19 +579,21 @@
           <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#39#78#0" expanded="true" />
-            <element signature="e#1042#1204#0" expanded="false" />
-            <element signature="e#1456#1805#0" expanded="false" />
-            <element signature="e#1828#1870#0" expanded="false" />
+            <element signature="e#1001#1163#0" expanded="false" />
+            <element signature="e#1395#1744#0" expanded="false" />
+            <element signature="e#1767#1809#0" expanded="false" />
             <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
-            <element signature="e#2958#3011#0" expanded="false" />
-            <element signature="e#3039#3400#0" expanded="false" />
-            <element signature="e#3970#4493#0" expanded="false" />
-            <element signature="e#4521#4751#0" expanded="false" />
-            <element signature="e#4779#4846#0" expanded="false" />
-            <element signature="e#4876#5100#0" expanded="false" />
-            <element signature="e#5144#5350#0" expanded="false" />
-            <element signature="e#5393#5598#0" expanded="false" />
+            <element signature="e#2897#2950#0" expanded="false" />
+            <element signature="e#2978#3339#0" expanded="false" />
+            <element signature="e#3909#4432#0" expanded="false" />
+            <element signature="e#4460#4690#0" expanded="false" />
+            <element signature="e#4718#4785#0" expanded="false" />
+            <element signature="e#4815#5039#0" expanded="false" />
+            <element signature="e#5083#5289#0" expanded="false" />
+            <element signature="e#5332#5537#0" expanded="false" />
+            <element signature="e#6535#6759#0" expanded="false" />
+            <element signature="e#6768#7092#0" expanded="false" />
+            <element signature="e#7616#9320#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -706,27 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1148">
-          <caret line="301" column="8" lean-forward="false" selection-start-line="301" selection-start-column="8" selection-end-line="301" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/src/components/MyIcon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -762,62 +655,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/addon/comment/comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/theme/eclipse.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/addon/display/autorefresh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/node_modules/codemirror/lib/codemirror.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/node_modules/codemirror/mode/meta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/lib/CodeMirror.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5031">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/addon/comment/comment.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/theme/eclipse.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/addon/display/autorefresh.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/node_modules/codemirror/lib/codemirror.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/node_modules/codemirror/mode/meta.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/lib/CodeMirror.js" />
     <entry file="file://$PROJECT_DIR$/src/components/common/MyModal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4719">
@@ -832,79 +675,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/lib/index.js" />
     <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/createLayout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3276">
-          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Box.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/CodeModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#78#0" expanded="true" />
-            <marker date="1538968581577" expanded="true" signature="789:1105" ph="..." />
-            <marker date="1538968581577" expanded="true" signature="807:1092" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Dustbin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4446">
-          <caret line="114" column="26" lean-forward="false" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8151">
-          <caret line="317" column="23" lean-forward="false" selection-start-line="317" selection-start-column="23" selection-end-line="317" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#39#78#0" expanded="true" />
-            <element signature="e#1042#1204#0" expanded="false" />
-            <element signature="e#1456#1805#0" expanded="false" />
-            <element signature="e#1828#1870#0" expanded="false" />
-            <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
-            <element signature="e#2958#3011#0" expanded="false" />
-            <element signature="e#3039#3400#0" expanded="false" />
-            <element signature="e#3970#4493#0" expanded="false" />
-            <element signature="e#4521#4751#0" expanded="false" />
-            <element signature="e#4779#4846#0" expanded="false" />
-            <element signature="e#4876#5100#0" expanded="false" />
-            <element signature="e#5144#5350#0" expanded="false" />
-            <element signature="e#5393#5598#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,9 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
           <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="e#39#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,14 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4836">
           <caret line="124" column="5" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="124" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/treeData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19656">
-          <caret line="563" column="21" lean-forward="false" selection-start-line="563" selection-start-column="21" selection-end-line="563" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -937,16 +701,168 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/NDTempData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="354" column="0" lean-forward="true" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_@uiw_react-codemirror@1.0.19@@uiw/react-codemirror/lib/CodeMirror.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/_@uiw_react-codemirror@1.0.19@@uiw/react-codemirror/lib/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Dustbin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="88" column="64" lean-forward="true" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/treeData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="519" column="11" lean-forward="false" selection-start-line="519" selection-start-column="11" selection-end-line="519" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/createLayout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/CodeModal.js" />
+    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Box.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/ExamplesModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1001#1163#0" expanded="false" />
+            <element signature="e#1395#1744#0" expanded="false" />
+            <element signature="e#1767#1809#0" expanded="false" />
+            <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
+            <element signature="e#2897#2950#0" expanded="false" />
+            <element signature="e#2978#3339#0" expanded="false" />
+            <element signature="e#3909#4432#0" expanded="false" />
+            <element signature="e#4460#4690#0" expanded="false" />
+            <element signature="e#4718#4785#0" expanded="false" />
+            <element signature="e#4815#5039#0" expanded="false" />
+            <element signature="e#5083#5289#0" expanded="false" />
+            <element signature="e#5332#5537#0" expanded="false" />
+            <element signature="e#6535#6759#0" expanded="false" />
+            <element signature="e#6768#7092#0" expanded="false" />
+            <element signature="e#7616#9320#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-hls/dist/assets/player.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/download/Baidu-T5Player-SDK-Web-v3.4.1/cyberplayer-3.4.1/cyberplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cyberplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#62#103#0" expanded="true" />
           </folding>
         </state>
       </provider>
