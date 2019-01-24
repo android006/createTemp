@@ -4,9 +4,60 @@
     <bookmark url="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad3f316-45fa-4a01-a28d-0123c0263d63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cyberplayer.flash.swf" />
+    <list default="true" id="bad3f316-45fa-4a01-a28d-0123c0263d63" name="Default" comment="增加百度视频播放demo">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/ETS.43793f37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/MFT.cb9beb5f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/bdcc.6c958213.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/ccq.198fcc9c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/cfxt.0179b0eb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/clxt.f38655db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/cyjs.788a5391.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/cyjs.8b201bf3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/cyq.bebec166.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/cyq2.804aa6db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fslp.f2acc590.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fst.96da8b81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fyt.5b881a78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/gfhxt.0470599e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glMFT.d6fb7e5f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glMTF3.15adca14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/gldh.fcaf16a6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/gldh2.da191de3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/gllz.b04434fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glqs.46199552.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glqs.a42819ef.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glqs.fe4ca47b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glqs2.c51d9c3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glyf.788299dc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glzm.3cd02363.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glzm.8bb9841b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glzm.c12ce9b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glzm2.8d527c12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glzm2.b8f9b6fe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/glzm3.24063c2e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/hzx.5a224cb1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/jwjy.c5c2e923.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/jxhs3.02a9c3e7.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/jzm.30d185a1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/ljfs.6650822b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/qjETS.c21bf8e1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/qjrhy.2ae28068.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/qjrk.a06474ed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/qjzm.17f7ba06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/qyjy.4cd2c45e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/rhyxt.4bfbc451.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/rskz.2723c9a4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/shxt.6aa44c98.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/txkz.6dabbd46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/txzbg.94fecf83.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/xhs.567c3df3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/xhs.9a9a8a78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/yxt.2f42c53a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/zjxt.8017364f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.flash.swf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.css" afterPath="$PROJECT_DIR$/dist/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.js" afterPath="$PROJECT_DIR$/dist/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -94,8 +145,8 @@
       <file leaf-file-name="VideoTest.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="224">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#62#103#0" expanded="true" />
@@ -107,7 +158,7 @@
       <file leaf-file-name="VideoPlayer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/VideoPlayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="2184">
               <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -119,18 +170,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="390">
               <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cyberplayer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,6 +215,7 @@
       <find>CodeModal</find>
       <find>barLogo</find>
       <find>controlbar</find>
+      <find>cyberplayer</find>
     </findStrings>
     <replaceStrings>
       <replace>Filtrate</replace>
@@ -230,7 +272,7 @@
     <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -321,7 +363,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="last_opened_file_path" value="G:/tailgasmonitor" />
+    <property name="last_opened_file_path" value="G:/biomass" />
     <property name="SearchEverywhereHistoryKey" value="createLayout&#9;FILE&#9;file://E:/GitHub/createTemp/src/routes/createLayout/CreateLayout.js" />
   </component>
   <component name="RecentsManager">
@@ -370,8 +412,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="npm.start" />
-        <item index="1" class="java.lang.String" itemvalue="npm.build" />
+        <item index="0" class="java.lang.String" itemvalue="npm.build" />
+        <item index="1" class="java.lang.String" itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +445,7 @@
       <workItem from="1542852959018" duration="792000" />
       <workItem from="1543979217156" duration="64000" />
       <workItem from="1543979455761" duration="701000" />
-      <workItem from="1548295443081" duration="7146000" />
+      <workItem from="1548295443081" duration="7869000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1536572343324</created>
@@ -447,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548299718740</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加百度视频播放demo">
+      <created>1548309661077</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548309661077</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46962000" />
+    <option name="totallyTimeSpent" value="47685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -461,8 +510,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5178849" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5178849" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -827,14 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -843,17 +884,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/VideoPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="2184">
           <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -861,18 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="224">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#62#103#0" expanded="true" />
