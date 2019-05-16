@@ -2,16 +2,17 @@
  * 表格上方筛选条件
  * input 输入框, select 下拉选, rangePicker 时间筛选框
  */
-import {Form, Input, Select, Button, DatePicker,TreeSelect} from 'antd';
+import {Form, Input, Select, Button, DatePicker, TreeSelect, Upload, Icon, message} from 'antd';
 import React, {Component} from 'react';
 import moment from 'moment';
 import config from '../../src/config';
 import Util from '../utils/Util';
 import styles from './Filtrate.less';
+
 const {RangePicker, MonthPicker} = DatePicker;
 const FormItem = Form.Item;
 
-function disabledDate (current) {
+function disabledDate(current) {
   // 当天以后时间禁选,组件传值   disabledDate:true
   return current && current.valueOf() > Date.now();
 }
@@ -23,14 +24,14 @@ class Filtrate extends Component {
     endOpen: false,
   };
 
-  componentDidMount () {
+  componentDidMount() {
     let t = this;
     t.setState({
       params: t.props.form.getFieldsValue()
     });
   }
 
-  submit () {
+  submit() {
     let t = this;
     // Form 组件参数
     let params = t.props.form.getFieldsValue();
@@ -39,7 +40,7 @@ class Filtrate extends Component {
   }
 
   // 清空 Form 组件输入的内容
-  clearForm () {
+  clearForm() {
     let t = this;
     if (t.props.isMyClear === true) {
       let {myClearBtn} = t.props;
@@ -52,13 +53,13 @@ class Filtrate extends Component {
   }
 
   // 额外按钮点击事件
-  extraBtnClick (btnIndex) {
+  extraBtnClick(btnIndex) {
     let t = this;
     let funNameStr = t.props.extraBtn[btnIndex].funName;
     t.props[funNameStr]();
   }
 
-  selectedChange (fun, nextParams, paramName, value) {
+  selectedChange(fun, nextParams, paramName, value) {
     let t = this;
     let params = {};
     params[paramName] = value;
@@ -77,7 +78,7 @@ class Filtrate extends Component {
   }
 
   // 筛选条件组件change事件
-  getChangeValue (value, e) {
+  getChangeValue(value, e) {
     let t = this;
     let params = {};
     params[value] = e.target.value;
@@ -122,7 +123,7 @@ class Filtrate extends Component {
     return endValue.valueOf() <= startValue.valueOf();
   };
 
-  render () {
+  render() {
     let t = this;
     let {items} = t.props;
     let extraBtn = t.props.extraBtn || [];
@@ -135,7 +136,8 @@ class Filtrate extends Component {
     let clearBtnShow = true;
     if (t.props.clearBtn === 'hide') {
       clearBtnShow = false;
-    }
+    };
+
 
     return (
       <div className={styles.base}>
@@ -143,7 +145,7 @@ class Filtrate extends Component {
           {
             items.map((item, index) => {
               if (item.type === 'input') {
-                return (<FormItem  label={item.label} key={index}>
+                return (<FormItem label={item.label} key={index}>
                   {
                     getFieldDecorator(item.paramName, {
                       initialValue: item.initialValue ? item.initialValue : '',
@@ -155,7 +157,7 @@ class Filtrate extends Component {
                   }
                 </FormItem>)
               } else if (item.type === 'select') {
-                return (<FormItem  label={item.label} key={index}>
+                return (<FormItem label={item.label} key={index}>
                   {
                     getFieldDecorator(item.paramName, {
                       initialValue: item.initialValue ? item.initialValue : (item.options[0] ? Util.numToString(item.options[0].value) : item.options[0]),
@@ -164,7 +166,7 @@ class Filtrate extends Component {
                         size={config.size}
                         showSearch
                         mode={item.mode}
-                        style={item.style ? {width:'200px'} : {}}
+                        style={item.style ? {width: '200px'} : {}}
                         optionFilterProp="children"
                         dropdownMatchSelectWidth={t.props.dropdownMatchSelectWidth}
                         onChange={t.selectedChange.bind(t, item.selectChange, item.nextParamName || false, item.paramName)}
@@ -189,7 +191,7 @@ class Filtrate extends Component {
 
                 let disabled = item.disabledDate ? disabledDate : null;
 
-                return (<FormItem className={styles.dateTimePicker}  label={item.label}
+                return (<FormItem className={styles.dateTimePicker} label={item.label}
                                   key={index}>
                   {
                     getFieldDecorator(item.paramName, {
@@ -205,7 +207,7 @@ class Filtrate extends Component {
                 </FormItem>)
               } else if (item.type === 'datePicker') {
                 let disabled = item.disabledDate ? disabledDate : null;
-                return (<FormItem className={styles.datePicker}  label={item.label}
+                return (<FormItem className={styles.datePicker} label={item.label}
                                   key={index}>
                   {
                     getFieldDecorator(item.paramName, {
@@ -216,7 +218,7 @@ class Filtrate extends Component {
                   }
                 </FormItem>)
               } else if (item.type === 'monthPicker') {
-                return (<FormItem  label={item.label}
+                return (<FormItem label={item.label}
                                   key={index}>
                   {
                     getFieldDecorator(item.paramName, {
@@ -229,15 +231,15 @@ class Filtrate extends Component {
                     )
                   }
                 </FormItem>)
-              }else if (item.type === 'treeSelect') {
+              } else if (item.type === 'treeSelect') {
                 return (<FormItem className={styles.myTreeSelect} label={item.label} key={index}>
                   {
                     getFieldDecorator(item.paramName, {
                       initialValue: item.initialValue || null
                     })(
                       <TreeSelect
-                        style={{ width: 300 }}
-                        dropdownStyle={{ maxHeight: 400, overflow: 'auto' }}
+                        style={{width: 300}}
+                        dropdownStyle={{maxHeight: 400, overflow: 'auto'}}
                         treeData={item.treeData}
                         placeholder="请选择"
                         onSelect={item.onSelect}
@@ -245,9 +247,9 @@ class Filtrate extends Component {
                     )
                   }
                 </FormItem>)
-              }  else if (item.type === 'monthRang') {
+              } else if (item.type === 'monthRang') {
                 return (
-                  <FormItem  label={item.label}
+                  <FormItem label={item.label}
                             key={index}>
                     {
                       getFieldDecorator(item.paramName, {
@@ -282,7 +284,7 @@ class Filtrate extends Component {
                   </FormItem>
                 )
               } else if (item.type === 'selectMultiple') {
-                return (<FormItem  label={item.label} key={index}>
+                return (<FormItem label={item.label} key={index}>
                   {
                     getFieldDecorator(item.paramName, {
                       initialValue: [],
@@ -353,10 +355,13 @@ class Filtrate extends Component {
               )
             })
           }
+          {
+            t.props.children
+          }
         </Form>
       </div>
     )
   }
 }
 
-export default  Form.create()(Filtrate);
+export default Form.create()(Filtrate);

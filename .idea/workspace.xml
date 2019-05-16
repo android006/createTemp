@@ -4,9 +4,51 @@
     <bookmark url="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad3f316-45fa-4a01-a28d-0123c0263d63" name="Default" comment="增加百度视频播放demo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/cyberplayer.flash.swf" />
+    <list default="true" id="bad3f316-45fa-4a01-a28d-0123c0263d63" name="Default" comment="增加上传背景图功能">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/BAYXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/CYJSXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/DHYXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LKYQXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LKYQXT2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LLLJ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LQSXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LQSXT2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LRSXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LRSXT2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LXHH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LXHH2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LYQXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LYQXT2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LYYXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LYYXT2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LZXJC.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LZXJC2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/MFT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/MFT2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/PSXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/QJRLXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/QJTXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/QSBFXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/SHZKBXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/SNCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/TSI.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/XHSXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/ZHJZB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/ZHSXT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/createTemp/component/Screen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/themeTest/Test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/themeTest/ThemeTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/themeTest/themeTest.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.roadhogrc" afterPath="$PROJECT_DIR$/.roadhogrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.css" afterPath="$PROJECT_DIR$/dist/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.js" afterPath="$PROJECT_DIR$/dist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Filtrate.js" afterPath="$PROJECT_DIR$/src/components/Filtrate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/index.less" afterPath="$PROJECT_DIR$/src/less/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router.js" afterPath="$PROJECT_DIR$/src/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" afterPath="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/createTemp/createTemp.less" afterPath="$PROJECT_DIR$/src/routes/createTemp/createTemp.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js" afterPath="$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,106 +62,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreateLayout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#1001#1163#0" expanded="false" />
-                <element signature="e#1395#1744#0" expanded="false" />
-                <element signature="e#1767#1809#0" expanded="false" />
-                <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
-                <element signature="e#2897#2950#0" expanded="false" />
-                <element signature="e#2978#3339#0" expanded="false" />
-                <element signature="e#3909#4432#0" expanded="false" />
-                <element signature="e#4460#4690#0" expanded="false" />
-                <element signature="e#4718#4785#0" expanded="false" />
-                <element signature="e#4815#5039#0" expanded="false" />
-                <element signature="e#5083#5289#0" expanded="false" />
-                <element signature="e#5332#5537#0" expanded="false" />
-                <element signature="e#6535#6759#0" expanded="false" />
-                <element signature="e#6768#7092#0" expanded="false" />
-                <element signature="e#7616#9320#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CreateTemp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="440">
+              <caret line="369" column="45" lean-forward="false" selection-start-line="369" selection-start-column="45" selection-end-line="369" selection-end-column="45" />
+              <folding>
+                <element signature="e#38#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".roadhogrc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.roadhogrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Box.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Box.js">
+      <file leaf-file-name="createTemp.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExamplesModal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/ExamplesModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoTest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#62#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoPlayer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/VideoPlayer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="531">
+              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -128,9 +97,33 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filtrate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Filtrate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+              <folding>
+                <element signature="e#64#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyModal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/common/MyModal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="142" column="27" lean-forward="false" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="27" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,17 +133,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Less File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onInputChange</find>
-      <find>itemNum</find>
-      <find>activeType</find>
-      <find>droppedBoxNames</find>
-      <find>itemList</find>
       <find>filtrateItems</find>
       <find>#2机TSI系统</find>
       <find>TZ01</find>
@@ -163,7 +152,24 @@
       <find>CodeModal</find>
       <find>barLogo</find>
       <find>controlbar</find>
+      <find>dvplay</find>
+      <find>boxes</find>
+      <find>itemList</find>
+      <find>onHandleData</find>
+      <find>allData</find>
+      <find>onMove</find>
+      <find>line</find>
+      <find>renderColumns</find>
+      <find>columns</find>
+      <find>createDiv</find>
+      <find>copyUrl</find>
       <find>cyberplayer</find>
+      <find>uploadProps</find>
+      <find>typeBG</find>
+      <find>typeTemp</find>
+      <find>value</find>
+      <find>onSelect</find>
+      <find>dev</find>
     </findStrings>
     <replaceStrings>
       <replace>Filtrate</replace>
@@ -180,10 +186,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/routes/createTemp/createTemp.less" />
         <option value="$PROJECT_DIR$/src/components/MyIcon.js" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/createLayout.less" />
-        <option value="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/sub/filt.less" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/sub/MyFormItem.js" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/sub/Dustbin.js" />
@@ -193,11 +197,20 @@
         <option value="$PROJECT_DIR$/node_modules/@uiw/react-codemirror/lib/CodeMirror.js" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/sub/CodeModal.js" />
         <option value="$PROJECT_DIR$/src/routes/createTemp/component/NDTempData.js" />
-        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/routes/videoTest/VideoTest.js" />
         <option value="$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js" />
         <option value="$PROJECT_DIR$/src/router.js" />
+        <option value="$PROJECT_DIR$/src/less/index.less" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/routes/themeTest/themeTest.less" />
+        <option value="$PROJECT_DIR$/src/routes/themeTest/Test.js" />
+        <option value="$PROJECT_DIR$/src/routes/themeTest/ThemeTest.js" />
+        <option value="$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/routes/videoTest/VideoTest.js" />
+        <option value="$PROJECT_DIR$/src/routes/createTemp/createTemp.less" />
+        <option value="$PROJECT_DIR$/src/components/Filtrate.js" />
+        <option value="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" />
+        <option value="$PROJECT_DIR$/.roadhogrc" />
       </list>
     </option>
   </component>
@@ -217,10 +230,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -237,18 +250,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="createTemp" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
@@ -264,12 +272,25 @@
               <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="createTemp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="createTemp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,15 +298,7 @@
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="createLayout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="createTemp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="createLayout" type="462c0819:PsiDirectoryNode" />
-              <item name="sub" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="createTemp" type="b2602c69:ProjectViewProjectNode" />
@@ -306,7 +319,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,16 +329,17 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="last_opened_file_path" value="G:/biomass" />
+    <property name="last_opened_file_path" value="G:/gngc-web" />
     <property name="SearchEverywhereHistoryKey" value="createLayout&#9;FILE&#9;file://E:/GitHub/createTemp/src/routes/createLayout/CreateLayout.js" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitHub\createTemp\src\assets" />
+      <recent name="G:\GitHub\createTemp\src\assets\PZH" />
+      <recent name="G:\GitHub\createTemp\src\routes\createTemp\component" />
       <recent name="G:\GitHub\createTemp\public" />
       <recent name="G:\GitHub\createTemp\src\routes\videoTest\sub" />
-      <recent name="E:\GitHub\createTemp\src\assets" />
-      <recent name="E:\GitHub\createTemp\src\routes\createTemp\component" />
-      <recent name="E:\GitHub\createTemp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,7 +413,28 @@
       <workItem from="1543979217156" duration="64000" />
       <workItem from="1543979455761" duration="701000" />
       <workItem from="1548295443081" duration="7894000" />
-      <workItem from="1548310598649" duration="122000" />
+      <workItem from="1548310598649" duration="300000" />
+      <workItem from="1548395084362" duration="269000" />
+      <workItem from="1548396312741" duration="1245000" />
+      <workItem from="1548403073869" duration="547000" />
+      <workItem from="1548404758277" duration="162000" />
+      <workItem from="1550820512869" duration="1079000" />
+      <workItem from="1551068153446" duration="1153000" />
+      <workItem from="1551237139309" duration="1150000" />
+      <workItem from="1551419141702" duration="2389000" />
+      <workItem from="1551426325868" duration="1046000" />
+      <workItem from="1551434516601" duration="1031000" />
+      <workItem from="1551661994977" duration="8007000" />
+      <workItem from="1551680169053" duration="56000" />
+      <workItem from="1552375920589" duration="13400000" />
+      <workItem from="1553666718721" duration="69000" />
+      <workItem from="1553681426629" duration="1657000" />
+      <workItem from="1553751145935" duration="750000" />
+      <workItem from="1553953409349" duration="664000" />
+      <workItem from="1554279025676" duration="25000" />
+      <workItem from="1554279195997" duration="10000" />
+      <workItem from="1554280143573" duration="599000" />
+      <workItem from="1557971517536" duration="5879000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1536572343324</created>
@@ -457,26 +492,33 @@
       <option name="project" value="LOCAL" />
       <updated>1548310385864</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="增加百度视频播放demo">
+      <created>1548310725119</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548310725119</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47832000" />
+    <option name="totallyTimeSpent" value="89197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.47758082" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.44570503" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.521875" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.554295" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -529,342 +571,326 @@
     <MESSAGE value="优化" />
     <MESSAGE value="替换" />
     <MESSAGE value="增加百度视频播放demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加百度视频播放demo" />
+    <MESSAGE value="增加上传背景图功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加上传背景图功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Dustbin.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/style/color/colors.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4524">
-          <caret line="125" column="23" lean-forward="true" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11466">
-          <caret line="294" column="27" lean-forward="false" selection-start-line="294" selection-start-column="14" selection-end-line="294" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/MyFormItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2691">
-          <caret line="77" column="15" lean-forward="false" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/filt.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3549">
-          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
-          <folding>
-            <element signature="e#1001#1163#0" expanded="false" />
-            <element signature="e#1395#1744#0" expanded="false" />
-            <element signature="e#1767#1809#0" expanded="false" />
-            <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
-            <element signature="e#2897#2950#0" expanded="false" />
-            <element signature="e#2978#3339#0" expanded="false" />
-            <element signature="e#3909#4432#0" expanded="false" />
-            <element signature="e#4460#4690#0" expanded="false" />
-            <element signature="e#4718#4785#0" expanded="false" />
-            <element signature="e#4815#5039#0" expanded="false" />
-            <element signature="e#5083#5289#0" expanded="false" />
-            <element signature="e#5332#5537#0" expanded="false" />
-            <element signature="e#6535#6759#0" expanded="false" />
-            <element signature="e#6768#7092#0" expanded="false" />
-            <element signature="e#7616#9320#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1755">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mock/cockpit/cockpit.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/style/components.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/src/components/MyIcon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/Filtrate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4836">
-          <caret line="133" column="32" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock/cockpit/cockpit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.roadhogrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1549">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/style/themes/default.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="-21258">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/addon/comment/comment.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/theme/eclipse.css" />
-    <entry file="file://$PROJECT_DIR$/node_modules/codemirror/addon/display/autorefresh.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/node_modules/codemirror/lib/codemirror.css" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/node_modules/codemirror/mode/meta.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/lib/CodeMirror.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/common/MyModal.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/style/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4719">
-          <caret line="126" column="60" lean-forward="false" selection-start-line="126" selection-start-column="49" selection-end-line="126" selection-end-column="60" />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/TZTempData.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/dist/antd.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
-          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@uiw/react-codemirror/lib/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/MyFormItem.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/IndexPage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/filt.less">
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/style/core/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4836">
-          <caret line="124" column="5" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="124" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/AJTempData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/NDTempData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/_@uiw_react-codemirror@1.0.19@@uiw/react-codemirror/lib/CodeMirror.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/_@uiw_react-codemirror@1.0.19@@uiw/react-codemirror/lib/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Dustbin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="88" column="64" lean-forward="true" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/treeData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="519" column="11" lean-forward="false" selection-start-line="519" selection-start-column="11" selection-end-line="519" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/createLayout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/themeTest/themeTest.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/themeTest/ThemeTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/themeTest/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/Screen.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/CodeModal.js" />
-    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/SHZKBXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/Box.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/SHJZB.png" />
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/QSBFXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/sub/ExamplesModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/QJTXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/createLayout/CreateLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#1001#1163#0" expanded="false" />
-            <element signature="e#1395#1744#0" expanded="false" />
-            <element signature="e#1767#1809#0" expanded="false" />
-            <element signature="n#!!block;n#isDropped#0;n#CreateLayout#0" expanded="false" />
-            <element signature="e#2897#2950#0" expanded="false" />
-            <element signature="e#2978#3339#0" expanded="false" />
-            <element signature="e#3909#4432#0" expanded="false" />
-            <element signature="e#4460#4690#0" expanded="false" />
-            <element signature="e#4718#4785#0" expanded="false" />
-            <element signature="e#4815#5039#0" expanded="false" />
-            <element signature="e#5083#5289#0" expanded="false" />
-            <element signature="e#5332#5537#0" expanded="false" />
-            <element signature="e#6535#6759#0" expanded="false" />
-            <element signature="e#6768#7092#0" expanded="false" />
-            <element signature="e#7616#9320#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/QJYXT.png" />
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/QJRLXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-hls/dist/assets/player.bundle.js" />
-    <entry file="file://D:/download/Baidu-T5Player-SDK-Web-v3.4.1/cyberplayer-3.4.1/cyberplayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/PSXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/cyberplayer.js" />
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/MFT2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/MFT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LZXJC2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LZXJC.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LYYXT2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LYYXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LYQXT2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LYQXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LXHH2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LXHH.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LRSXT2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LRSXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LQSXT2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LQSXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LLLJ.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LKYQXT2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/LKYQXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/DHYXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/CYJSXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/PZH/BAYXT.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoPlayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="269">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#62#103#0" expanded="true" />
+            <element signature="e#62#103#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="-1330">
+          <caret line="89" column="19" lean-forward="true" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/component/treeData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/MyModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="142" column="27" lean-forward="false" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Filtrate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+          <folding>
+            <element signature="e#64#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="369" column="45" lean-forward="false" selection-start-line="369" selection-start-column="45" selection-end-line="369" selection-end-column="45" />
+          <folding>
+            <element signature="e#38#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.roadhogrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>

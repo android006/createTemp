@@ -5,6 +5,7 @@ import IndexPage from './routes/IndexPage';
 import CreateTemp from './routes/createTemp/CreateTemp';
 import CreateLayout from "./routes/createLayout/CreateLayout";
 import VideoTest from "./routes/videoTest/VideoTest";
+import ThemeTest from "./routes/themeTest/ThemeTest";
 
 function RouterConfig ({history}) {
   return (
@@ -16,6 +17,7 @@ function RouterConfig ({history}) {
       <Route path="createTemp" component={CreateTemp}> </Route>
       <Route path="createLayout" component={CreateLayout}> </Route>
       <Route path="videoTest" component={VideoTest}> </Route>
+      <Route path="themeTest" component={ThemeTest}> </Route>
     </Router>
   );
 }
