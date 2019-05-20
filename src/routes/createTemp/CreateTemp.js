@@ -468,7 +468,7 @@ class CreateTemp extends Component {
         </div>
         <div className={styles.content}>
           <Filtrate items={items} clearBtn={'hide'}>
-            <Upload onChange={t.onUpChange} showUploadList={false}>
+            <Upload accept={'.png .jpg .jpeg'} onChange={t.onUpChange} showUploadList={false}>
               <Button style={{marginTop: 4}}><Icon type="upload" />上传背景图</Button>
             </Upload>
           </Filtrate>

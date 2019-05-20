@@ -4,51 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/routes/videoTest/VideoTest.js" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad3f316-45fa-4a01-a28d-0123c0263d63" name="Default" comment="增加上传背景图功能">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/BAYXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/CYJSXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/DHYXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LKYQXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LKYQXT2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LLLJ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LQSXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LQSXT2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LRSXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LRSXT2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LXHH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LXHH2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LYQXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LYQXT2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LYYXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LYYXT2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LZXJC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/LZXJC2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/MFT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/MFT2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/PSXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/QJRLXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/QJTXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/QSBFXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/SHZKBXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/SNCR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/TSI.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/XHSXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/ZHJZB.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/PZH/ZHSXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/createTemp/component/Screen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/themeTest/Test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/themeTest/ThemeTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes/themeTest/themeTest.less" />
+    <list default="true" id="bad3f316-45fa-4a01-a28d-0123c0263d63" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.roadhogrc" afterPath="$PROJECT_DIR$/.roadhogrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.css" afterPath="$PROJECT_DIR$/dist/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.js" afterPath="$PROJECT_DIR$/dist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Filtrate.js" afterPath="$PROJECT_DIR$/src/components/Filtrate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/index.less" afterPath="$PROJECT_DIR$/src/less/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router.js" afterPath="$PROJECT_DIR$/src/router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" afterPath="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/createTemp/createTemp.less" afterPath="$PROJECT_DIR$/src/routes/createTemp/createTemp.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js" afterPath="$PROJECT_DIR$/src/routes/videoTest/sub/cyberplayer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreateTemp.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateTemp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="369" column="45" lean-forward="false" selection-start-line="369" selection-start-column="45" selection-end-line="369" selection-end-column="45" />
+            <state relative-caret-position="309">
+              <caret line="469" column="52" lean-forward="true" selection-start-line="469" selection-start-column="52" selection-end-line="469" selection-end-column="52" />
               <folding>
                 <element signature="e#38#77#0" expanded="true" />
               </folding>
@@ -74,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".roadhogrc" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".roadhogrc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.roadhogrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="234">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -87,7 +46,7 @@
       <file leaf-file-name="createTemp.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
+            <state relative-caret-position="1638">
               <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding />
             </state>
@@ -97,7 +56,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="429">
               <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding />
             </state>
@@ -107,7 +66,7 @@
       <file leaf-file-name="Filtrate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Filtrate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="-2109">
               <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
               <folding>
                 <element signature="e#64#160#0" expanded="true" />
@@ -119,7 +78,7 @@
       <file leaf-file-name="MyModal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/common/MyModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="5343">
               <caret line="142" column="27" lean-forward="false" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -140,7 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>filtrateItems</find>
       <find>#2机TSI系统</find>
       <find>TZ01</find>
       <find>4锅炉总貌</find>
@@ -170,6 +128,7 @@
       <find>value</find>
       <find>onSelect</find>
       <find>dev</find>
+      <find>accept</find>
     </findStrings>
     <replaceStrings>
       <replace>Filtrate</replace>
@@ -209,8 +168,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/routes/createTemp/createTemp.less" />
         <option value="$PROJECT_DIR$/src/components/Filtrate.js" />
-        <option value="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" />
         <option value="$PROJECT_DIR$/.roadhogrc" />
+        <option value="$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js" />
       </list>
     </option>
   </component>
@@ -329,7 +288,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="last_opened_file_path" value="G:/gngc-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="createLayout&#9;FILE&#9;file://E:/GitHub/createTemp/src/routes/createLayout/CreateLayout.js" />
     <property name="list.type.of.created.stylesheet" value="Less" />
   </component>
@@ -434,7 +393,8 @@
       <workItem from="1554279025676" duration="25000" />
       <workItem from="1554279195997" duration="10000" />
       <workItem from="1554280143573" duration="599000" />
-      <workItem from="1557971517536" duration="5879000" />
+      <workItem from="1557971517536" duration="6780000" />
+      <workItem from="1558331473595" duration="473000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1536572343324</created>
@@ -499,21 +459,29 @@
       <option name="project" value="LOCAL" />
       <updated>1548310725119</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加上传背景图功能">
+      <created>1557977437305</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557977437305</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89197000" />
+    <option name="totallyTimeSpent" value="90571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.44570503" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.43922204" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.554295" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.56077796" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -530,7 +498,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -811,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="429">
           <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
@@ -851,7 +817,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/createTemp/createTemp.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="1638">
           <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding />
         </state>
@@ -859,7 +825,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/MyModal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="5343">
           <caret line="142" column="27" lean-forward="false" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -867,9 +833,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.roadhogrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Filtrate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="-2109">
           <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
           <folding>
             <element signature="e#64#160#0" expanded="true" />
@@ -879,19 +853,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/createTemp/CreateTemp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="369" column="45" lean-forward="false" selection-start-line="369" selection-start-column="45" selection-end-line="369" selection-end-column="45" />
+        <state relative-caret-position="309">
+          <caret line="469" column="52" lean-forward="true" selection-start-line="469" selection-start-column="52" selection-end-line="469" selection-end-column="52" />
           <folding>
             <element signature="e#38#77#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.roadhogrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
